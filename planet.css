@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    width: 100%;
+    background-color: gray;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+    color: white;
+    font-size: 12px;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+}
+
+.planet{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(space.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+   
+}
+
+.planet a{
+    font-size:25px ;
+    color: white;
+    padding: 5px 12px;
+    border: 1px solid white;
+}
+
+.about{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.globe{
+    width: 100%;
+    height: 300  px;
+    background-color: rgb(224, 223, 223);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.globe img{
+    width: 15;
+    
+}
+
+.globe div{
+    width: 20;
+    gap: 10px;
+}
+
+.globe p{
+    width: 20;
+    
+
+   
+}
+
+.globe a{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    padding: 3px 12px;
+    border: 1px solid black ;
+}
+
+.astronauts{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.business{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(204, 111, 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.business img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer p{
+    font-size: 12px;
+}
